@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provisine - Göz Sağlığı ve Besin Desteği</title>
+    <style>
+        :root {
+            --primary-blue: #0056b3;
+            --secondary-red: #a50034;
+            --text-dark: #2c3e50;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #fff;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 2px solid var(--bg-light);
+        }
+
+        .hero {
+            padding: 50px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #ffffff 0%, #eef2f7 100%);
+        }
+
+        .product-main {
+            max-width: 450px;
+            width: 100%;
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+
+        h1 {
+            color: var(--primary-blue);
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .badge {
+            background: var(--bg-light);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .price-box {
+            background: var(--secondary-red);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(165, 0, 52, 0.3);
+        }
+
+        .price-now {
+            font-size: 2.5rem;
+            display: block;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--primary-blue);
+        }
+
+        .btn-action {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 22px 50px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 30px;
+            text-transform: uppercase;
+            box-shadow: 0 6px 20px rgba(0, 86, 179, 0.3);
+        }
+
+        .info-section {
+            padding: 60px 20px;
+            background-color: var(--bg-light);
+        }
+
+        .content-wrap {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            padding: 40px 20px;
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        .legal-disclaimer {
+            border-top: 1px solid #444;
+            margin-top: 20px;
+            padding-top: 20px;
+            font-size: 0.75rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.6rem; }
+            .btn-action { width: 90%; font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <strong>PROVISINE TÜRKİYE RESMİ DİSTRİBÜTÖRÜ</strong>
+    </header>
+
+    <section class="hero">
+        <div class="badge-container">
+            <span class="badge">✓ %100 DOĞAL İÇERİK</span>
+            <span class="badge">✓ LABORATUVAR TEST EDİLDİ</span>
+        </div>
+        
+        <h1>Gözleriniz İçin Akıllı Besin Desteği</h1>
+        <p>Günlük yaşantınızda göz sağlığınızı korumaya yardımcı olan zengin formül.</p>
+
+        <img src="ProVisine.png" alt="Provisine Ürün" class="product-main">
+
+        <div class="price-box">
+            <small>Sadece Bugün İçin Özel Fiyat:</small>
+            <span class="price-now">599 TL</span>
+            <small>+ 50 TL Kargo Ücreti</small>
+        </div>
+
+        <br>
+        <a href="https://80lv8.doctorfox1ck.com/l" class="btn-action">ŞİMDİ SİPARİŞ VER</a>
+    </section>
+
+    <section class="features-grid">
+        <div class="feature-card">
+            <h3>🔬 Bilimsel Destek</h3>
+            <p>Provisine, vitamin ve minerallerin dengeli birleşimiyle göz yorgunluğunu azaltmaya yardımcı olur.</p>
+        </div>
+        <div class="feature-card">
+            <h3>📱 Dijital Koruma</h3>
+            <p>Mavi ışığa maruz kalan gözler için gerekli antioksidan desteğini sağlar.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🌟 Net Yaşam</h3>
+            <p>Gün boyunca daha canlı ve rahat bir görüş hissetmenize katkıda bulunur.</p>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="content-wrap">
+            <h2>Neden Provisine Tercih Edilmeli?</h2>
+            <p>Günümüz dünyasında gözlerimiz her zamankinden daha fazla çalışıyor. Provisine, içeriğindeki <strong>Lutein, Zeaksantin ve çinko</strong> gibi bileşenlerle göz dokularını besler. Bu içerikler, yaşa bağlı oluşabilecek oksidatif stresi yönetmeye yardımcı olur.</p>
+            
+            <ul style="text-align: left; margin-top: 20px;">
+                <li>Göz yorgunluğunu minimize eder.</li>
+                <li>Gece görüş kalitesine destek olur.</li>
+                <li>Göz kuruluğuna karşı besin takviyesi sağlar.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Provisine Türkiye. Tüm Hakları Saklıdır.</p>
+        <div class="legal-disclaimer">
+            <p><strong>Yasal Uyarı:</strong> Bu ürün bir ilaç değildir, herhangi bir hastalığı teşhis veya tedavi etmek amacıyla kullanılmaz. Sonuçlar kişiden kişiye farklılık gösterebilir. Dengeli bir diyet ve sağlıklı yaşam tarzı önerilir. Hamilelik veya emzirme dönemindeyseniz kullanmadan önce doktorunuza danışınız.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
